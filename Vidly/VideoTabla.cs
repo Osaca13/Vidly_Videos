@@ -9,9 +9,7 @@
 
 namespace Vidly
 {
-    using System;
-    using System.Collections.Generic;
-    
+
     public partial class VideoTabla
     {
         public int VideoId { get; set; }
