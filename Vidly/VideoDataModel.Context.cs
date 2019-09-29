@@ -9,10 +9,8 @@
 
 namespace Vidly
 {
-    using System;
     using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
-    
+
     public partial class VideosDBEntities : DbContext
     {
         public VideosDBEntities()
@@ -22,7 +20,7 @@ namespace Vidly
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            throw new UnintentionalCodeFirstException();
+            base.OnModelCreating(modelBuilder);
         }
     
         public virtual DbSet<VideoTabla> VideoTabla { get; set; }
