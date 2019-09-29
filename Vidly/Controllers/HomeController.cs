@@ -27,22 +27,22 @@ namespace Vidly.Controllers
             return View();
         }
 
-        public ActionResult TableShow() 
-        {
-            ViewBag.Message = "Show of all videos";
+        //public ActionResult TableShow() 
+        //{
+        //    ViewBag.Message = "Show of all videos";
 
-            return View();
+        //    return View();
           
-        }
+        //}
 
-        public ActionResult Create() 
-        {
-            ViewBag.Message = "Create new link to a video";
+        //public ActionResult Create() 
+        //{
+        //    ViewBag.Message = "Create new link to a video";
 
-            return View();
+        //    return View();
         
         
-        }
+        //}
 
     }
 }

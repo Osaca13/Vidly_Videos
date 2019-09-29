@@ -22,7 +22,7 @@ namespace Vidly
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            throw new UnintentionalCodeFirstException();
+            base.OnModelCreating(modelBuilder);
         }
     
         public virtual DbSet<VideoTabla> VideoTabla { get; set; }
